@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ozon Gazetesi</title>
+    <link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
+    <meta
+      name="description"
+      content="Tek sayfalık çevre ve iklim temalı web bülteni."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container masthead">
+        <div class="logo-wrap">
+          <div class="logo-circle">🌍</div>
+        </div>
+
+        <div class="brand-block">
+          <h1>Ozon Gazetesi</h1>
+          <p>Gezegenimizi korumak, geleceğimizi korumaktır.</p>
+        </div>
+
+        <div class="header-right">
+          <div class="weather-box">
+            <div class="weather-icon">⛅</div>
+            <div>
+              <strong>İstanbul, Türkiye</strong>
+              <span>18°C &nbsp;•&nbsp; 25 Mayıs 2025, Pazar</span>
+            </div>
+          </div>
+
+          <button
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Tema değiştir"
+          >
+            ◐
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section container">
+        <article class="hero-card" id="manset">
+          <img
+            src="assets/img/hero/dunyanin-atesi-cikiyor.png"
+            alt="Aşırı ısınma, sanayi kirliliği, kuraklık ve buzulların erimesini temsil eden dramatik görsel"
+          />
+          <div class="hero-overlay">
+            <span class="tag">MANŞET</span>
+            <h2>Dünya’nın ateşi çıkıyor</h2>
+            <p>
+              Küresel ısınma hızlanıyor. Aşırı hava olayları artıyor, buzullar
+              eriyor, deniz seviyesi yükseliyor, kuraklık daha sık ve şiddetli
+              yaşanıyor. Gezegenimiz alarm veriyor; harekete geçme zamanı şimdi.
+            </p>
+            <div class="date-line">◔ 25 Mayıs 2025</div>
+          </div>
+        </article>
+
+        <aside class="editorial-card" id="kose">
+          <span class="mini-head">KÖŞE YAZISI</span>
+          <h3>Karbon ayak<br />izimizi nasıl sileriz?</h3>
+          <p class="lead">
+            Küçük adımlar büyük değişim başlatır. İşte birlikte
+            yapabileceklerimiz:
+          </p>
+
+          <div class="tip-list">
+            <div class="tip-item">
+              <span class="tip-icon">⚡</span>
+              <div>
+                <strong>Daha az enerji tüket</strong>
+                <p>Gereksiz ışıkları kapat, enerji tasarrufu yap.</p>
+              </div>
+            </div>
+            <div class="tip-item">
+              <span class="tip-icon">🚌</span>
+              <div>
+                <strong>Toplu taşıma kullan</strong>
+                <p>Araç kullanımını azalt, toplu taşımayı tercih et.</p>
+              </div>
+            </div>
+            <div class="tip-item">
+              <span class="tip-icon">🛒</span>
+              <div>
+                <strong>Gereksiz tüketimi azalt</strong>
+                <p>İhtiyacın kadar al, israfı önle.</p>
+              </div>
+            </div>
+            <div class="tip-item">
+              <span class="tip-icon">🌳</span>
+              <div>
+                <strong>Ağaç dik</strong>
+                <p>Her ağaç, daha temiz hava ve daha serin bir dünya demek.</p>
+              </div>
+            </div>
+            <div class="tip-item">
+              <span class="tip-icon">♻️</span>
+              <div>
+                <strong>Geri dönüşümü destekle</strong>
+                <p>Atıklarını ayır, geri dönüşümle döngüyü güçlendir.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="signature">Gelecek bizim elimizde!</div>
+        </aside>
+      </section>
+
+      <section class="container cards-grid" id="kartlar">
+        <article class="info-card">
+          <img
+            src="assets/img/cards/ozon-nedir1.jpg"
+            alt="Ozon tabakasını temsil eden görsel"
+          />
+          <div class="info-body">
+            <h3>Ozon nedir?</h3>
+            <p>
+              Ozon, atmosferde bulunan bir gazdır. Özellikle stratosfer
+              tabakasındaki ozon tabakası, Güneş’ten gelen zararlı ultraviyole
+              ışınların önemli bir bölümünü süzerek canlıları korur.
+            </p>
+            <a href="#">Devamını oku →</a>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <img
+            src="assets/img/cards/sera-etkisi1.jpg"
+            alt="Sera etkisini anlatan görsel"
+          />
+          <div class="info-body">
+            <h3>Sera etkisi nasıl çalışır?</h3>
+            <p>
+              Güneş’ten gelen enerji Dünya’yı ısıtır. Yeryüzünden yayılan ısıyı
+              ise karbondioksit, metan gibi sera gazları bir ölçüde tutarak
+              atmosferde hapseder.
+            </p>
+            <a href="#">Devamını oku →</a>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <img
+            src="assets/img/cards/kuresel-etkiler.png"
+            alt="Kuraklık, fırtına, sel ve buzulların erimesini temsil eden görsel"
+          />
+          <div class="info-body">
+            <h3>Küresel ısınmanın etkileri</h3>
+            <p>
+              Aşırı sıcaklıklar, kuraklık, orman yangınları, sel, fırtına,
+              buzulların erimesi ve deniz seviyesinin yükselmesi gibi etkiler
+              giderek belirginleşiyor.
+            </p>
+            <a href="#">Devamını oku →</a>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <img
+            src="assets/img/cards/ne-yapabiliriz.png"
+            alt="Daha yeşil yaşam, bisiklet, rüzgar enerjisi ve doğa dostu şehir görseli"
+          />
+          <div class="info-body">
+            <h3>Bugün ne yapabiliriz?</h3>
+            <p>
+              Daha az plastik kullanabilir, enerjiyi dikkatli tüketebilir, toplu
+              taşımayı tercih edebilir ve sürdürülebilir alışkanlıklar
+              geliştirebiliriz.
+            </p>
+            <a href="#">Devamını oku →</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="knowledge container">
+        <div class="section-title">
+          <span></span>
+          <h2>Bilmeniz Gerekenler</h2>
+          <span></span>
+        </div>
+        <div class="knowledge-grid">
+          <article class="fact-box blue">
+            <div class="fact-icon">☁️</div>
+            <div>
+              <h3>Atmosferimiz yaşam kalkanımızdır.</h3>
+              <p>
+                Atmosfer, zararlı ışınlara karşı bizi korur, hava olaylarını
+                düzenler ve yaşam için gerekli koşulları sağlar.
+              </p>
+            </div>
+          </article>
+          <article class="fact-box green">
+            <div class="fact-icon">⚛️</div>
+            <div>
+              <h3>Sera gazları artıyor.</h3>
+              <p>
+                Karbondioksit, metan ve diazot oksit gibi gazların artışı,
+                dünyanın daha fazla ısınmasına neden olur.
+              </p>
+            </div>
+          </article>
+          <article class="fact-box blue">
+            <div class="fact-icon">O₃</div>
+            <div>
+              <h3>Ozon tabakası hayat kurtarır.</h3>
+              <p>
+                Stratosferdeki ozon tabakası, UV ışınlarının büyük bir kısmını
+                süzerek bizi korur.
+              </p>
+            </div>
+          </article>
+          <article class="fact-box green">
+            <div class="fact-icon">💡</div>
+            <div>
+              <h3>Enerji tasarrufu geleceğe yatırımdır.</h3>
+              <p>
+                Enerji tasarrufu yapmak, sera gazı salımını azaltır ve doğal
+                kaynaklarımızı korumamıza yardım eder.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article class="feature-item">
+          <div class="feature-icon">🌡️</div>
+          <h3>Aşırı Hava Olayları Artıyor</h3>
+          <p>
+            Sel, fırtına, sıcak hava dalgaları ve orman yangınları her geçen yıl
+            daha sık ve yıkıcı hale geliyor.
+          </p>
+          <small>Hazırlıklı olalım, dayanıklı şehirler kuralım.</small>
+        </article>
+        <article class="feature-item">
+          <div class="feature-icon">🧊</div>
+          <h3>Buzullar Hızla Eriyor</h3>
+          <p>
+            Kutup bölgeleri ve dağlardaki buzullar eriyor. Bu da deniz
+            seviyesinin yükselmesine yol açıyor.
+          </p>
+          <small>Buzulları koru, geleceğini koru.</small>
+        </article>
+        <article class="feature-item">
+          <div class="feature-icon">☀️</div>
+          <h3>Kuraklık Kapıda</h3>
+          <p>
+            Yağış rejimleri değişiyor, tatlı su kaynakları azalıyor. Tarım ve
+            gıda güvenliği tehdit altında.
+          </p>
+          <small>Suyu tasarruflu kullan, yaşamı sürdürelim.</small>
+        </article>
+        <article class="feature-item">
+          <div class="feature-icon">🌿</div>
+          <h3>Yeşil Bir Gelecek Mümkün</h3>
+          <p>
+            Yenilenebilir enerji, sürdürülebilir üretim ve bilinçli tüketimle
+            daha temiz bir dünya mümkündür.
+          </p>
+          <small>Daha yeşil bir dünya için bugünden harekete geç.</small>
+        </article>
+      </section>
+
+      <section class="container cta-wrap" id="cozum">
+        <div class="cta-box">
+          <div class="cta-copy">
+            <h2>Gezegen tek, sorumluluk hepimizin.</h2>
+            <p>
+              Bugün atacağın küçük bir adım, yarının büyük değişimine dönüşür.
+            </p>
+          </div>
+          <a class="cta-btn" href="#kose">Hemen harekete geç!</a>
+          <img
+            src="assets/img/cta/cta-plant.png"
+            alt="Toprak ve filiz görseli"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Kaynaklar</h3>
+          <p>
+            Bilgiler; güvenilir bilimsel kurum ve kuruluşların raporlarından
+            derlenmiştir.
+          </p>
+        </div>
+        <div>
+          <ul>
+            <li>NASA – Dünya Gözlemevi</li>
+            <li>NOAA – Ulusal Okyanus ve Atmosfer Dairesi</li>
+            <li>IPCC – Hükümetlerarası İklim Değişikliği Paneli</li>
+          </ul>
+        </div>
+        <div>
+          <h3>İletişim</h3>
+          <p>github.com/ardaryusz<br />İstanbul, Türkiye</p>
+          <div class="socials">
+            <span>f</span><span>◎</span><span>𝕏</span><span>▶</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

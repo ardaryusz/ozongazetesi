@@ -1,0 +1,36 @@
+# system docs
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+
+# temps
+*.tmp
+*.temp
+*.log
+
+# backups
+*.bak
+*.old
+*~
+
+# node / packmans
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# builders
+dist/
+build/
+
+# env
+.env
+.env.local
+
+# zips
+*.zip
+*.rar
+*.7z
